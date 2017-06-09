@@ -9,14 +9,14 @@
 ## Table of Contents
 
 - [About](#about)
-- [Technologies Used](#technologies used)
+- [Technologies Used](#Technologies Used)
 - [General Approach](#general approach)
-- [Installation Instructions](#installation instructions)
+- [Installation Instructions](#Installation Instructions)
 - [User Stories](#available-scripts)
 - [Wireframes](#adding-flow)
 - [Technical Requirements](#technical requirements)
 - [Unsolved Problems](#adding-custom-environment-variables)
-  - [Major Hurdles](#Major hurdles)
+  - [Major Hurdles](#Major Hurdles...)
 
 
 ## About
@@ -61,7 +61,7 @@ app.post('/api/location', (req,res) => {
   var address = req.body.address
   var citystatezip = req.body.citystatezip
   zillow = new Zillow('zws-id')
-  var url = `http://www.zillow.com/webservice/GetDeepSearchResults.htm?zws-id=${zillow.id}&address=${address}&citystatezip=${citystatezip}`
+  var url = `https://www.zillow.com/webservice/GetDeepSearchResults.htm?zws-id=${zillow.id}&address=${address}&citystatezip=${citystatezip}`
 
   request(url, function (error, response, body) {
     if(!error && response.statusCode == 200) {
@@ -93,5 +93,5 @@ app.post('/api/location', (req,res) => {
 # Everything!!!!!
  - The api calls were challenging figuring out exactly the best way to do it with such limited documentstion.
  - Learning the component flow of react and rendering different pages by setting the state.
- - Syntax error: Adjacent JSX elements must be wrapped in an enclosing tag 
+ - Syntax error: Adjacent JSX elements must be wrapped in an enclosing tag
 # Home-Appraiser-client

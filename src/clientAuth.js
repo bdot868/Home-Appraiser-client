@@ -1,7 +1,7 @@
 import axios from 'axios'
 import jwt_decode from 'jwt-decode'
 
-axios.defaults.baseURL = 'http://localhost:3001'
+axios.defaults.baseURL = 'https://home-appraiser-server.herokuapp.com/'
 
 const clientAuth = {
 
