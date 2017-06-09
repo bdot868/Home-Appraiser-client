@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: #222;
+  height: 55px;
+  padding: 3px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.container {
+  margin-top: 100px;
+  max-width: 600px;
+}
+
+.log-in {
+  margin-top: 100px;
+  margin-left: 300px;
+  max-width: 600px;
+  max-height: 300px
+}
+
+#logIn {
+  margin-top: 10px;
+}
+
+strong {
+  text-align: center;
+}
+table {
+  margin-left: 136px;
+}
+#title {
+  font-size: 32px;
+}
+i {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+body {
+  background: url("https://cdn.tollbrothers.com/models/santa_monica_10150_/elevations/27-Marbella-Santa-Monica_Front-Elevation_920.jpg");
+  background-size: cover;
+}
+#quote-div {
+    background: white;
+    border-radius: 5px;
+    height: 100px;
+    width: 452px;
+    padding: 10px;
+    margin-left: 75px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+
+}
+span {
+  text-decoration: underline;
+  font-size: 16px;
+}
+
+h4 {
+  color: green
+}
+#username {
+  color: white;
+}
+#nav-links {
+  width: 100px;
+  border: 1px solid black;
+}
+.nav {
+  padding-left: 1003px;
+}
+h1 {
+  color: white;
+}
+#buster {
+  height: 0px;
+}
+#tagname{
+  margin-top: 200px;
+}
+.quote-item {
+  display: inline-block;
+}
